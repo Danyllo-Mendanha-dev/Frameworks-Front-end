@@ -1,0 +1,27 @@
+body {
+    background-color: #b80b32;
+    padding: 20px;
+    color: #fff;
+  }
+  .group-card {
+    background-color: #f9f7f3;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  .group-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .team {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .team img {
+    width: 25px;
+    margin-right: 10px;
+  }
