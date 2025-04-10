@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tabela Periódica</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Tabela Periódica</h1>
+       
+        <!-- Legenda -->
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color alkali"></div><span>Metais Alcalinos</span></div>
+            <div class="legend-item"><div class="legend-color alkaline"></div><span>Metais Alcalino-Terrosos</span></div>
+            <div class="legend-item"><div class="legend-color transition"></div><span>Metais de Transição</span></div>
+            <div class="legend-item"><div class="legend-color basic"></div><span>Metais Básicos</span></div>
+            <div class="legend-item"><div class="legend-color metalloid"></div><span>Metaloides</span></div>
+            <div class="legend-item"><div class="legend-color nonmetal"></div><span>Não Metais</span></div>
+            <div class="legend-item"><div class="legend-color halogen"></div><span>Halogênios</span></div>
+            <div class="legend-item"><div class="legend-color noble"></div><span>Gases Nobres</span></div>
+            <div class="legend-item"><div class="legend-color lanthanide"></div><span>Lantanídeos</span></div>
+            <div class="legend-item"><div class="legend-color actinide"></div><span>Actinídeos</span></div>
+        </div>
+       
+        <div class="grid-container">
+            <!-- Linha 1 -->
+            <div class="element alkali">1<br><p class="first-element-text">H</p><p class="text-element">Hidrogênio</p></div>
+            <div class="empty" style="grid-column: span 16;"></div>
+            <div class="element noble">2<br><p class="first-element-text">He</p><p class="text-element">Hélio</p></div>
+           
+            <!-- Linha 2 -->
+            <div class="element alkali">3<br><p class="first-element-text">Li</p><p class="text-element">Lítio</p></div>
+            <div class="element alkaline">4<br><p class="first-element-text">Be</p><p class="text-element">Berílio</p></div>
+            <div class="empty" style="grid-column: span 10;"></div>
+            <div class="element metalloid">5<br><p class="first-element-text">B</p><p class="text-element">Boro</p></div>
+            <div class="element nonmetal">6<br><p class="first-element-text">C</p><p class="text-element">Carbono</p></div>
+            <div class="element nonmetal">7<br><p class="first-element-text">N</p><p class="text-element">Nitrogênio</p></div>
+            <div class="element nonmetal">8<br><p class="first-element-text">O</p><p class="text-element">Oxigênio</p></div>
+            <div class="element halogen">9<br><p class="first-element-text">F</p><p class="text-element">Flúor</p></div>
+            <div class="element noble">10<br><p class="first-element-text">Ne</p><p class="text-element">Neônio</p></div>
+
+
+            <!-- Linha 3 -->
+            <div class="element alkali">11<br><p class="first-element-text">Na</p><p class="text-element">Sódio</p></div>
+            <div class="element alkaline">12<br><p class="first-element-text">Mg</p><p class="text-element">Magnésio</p></div>
+            <div class="empty" style="grid-column: span 10;"></div>
+            <div class="element basic">13<br><p class="first-element-text">Al</p><p class="text-element">Alumínio</p></div>
+            <div class="element metalloid">14<br><p class="first-element-text">Si</p><p class="text-element">Silício</p></div>
+            <div class="element nonmetal">15<br><p class="first-element-text">P</p><p class="text-element">Fósforo</p></div>
+            <div class="element nonmetal">16<br><p class="first-element-text">S</p><p class="text-element">Enxofre</p></div>
+            <div class="element halogen">17<br><p class="first-element-text">Cl</p><p class="text-element">Cloro</p></div>
+            <div class="element noble">18<br><p class="first-element-text">Ar</p><p class="text-element">Argônio</p></div>
+           
+            <!-- Linha 4 -->
+            <div class="element alkali">19<br><p class="first-element-text">K</p><p class="text-element">Potássio</p></div>
+            <div class="element alkaline">20<br><p class="first-element-text">Ca</p><p class="text-element">Cálcio</p></div>
+            <div class="element transition">21<br><p class="first-element-text">Sc</p><p class="text-element">Escândio</p></div>
+            <div class="element transition">22<br><p class="first-element-text">Ti</p><p class="text-element">Titânio</p></div>
+            <div class="element transition">23<br><p class="first-element-text">V</p><p class="text-element">Vanádio</p></div>
+            <div class="element transition">24<br><p class="first-element-text">Cr</p><p class="text-element">Cromo</p></div>
+            <div class="element transition">25<br><p class="first-element-text">Mn</p><p class="text-element">Manganês</p></div>
+            <div class="element transition">26<br><p class="first-element-text">Fe</p><p class="text-element">Ferro</p></div>
+            <div class="element transition">27<br><p class="first-element-text">Co</p><p class="text-element">Cobalto</p></div>
+            <div class="element transition">28<br><p class="first-element-text">Ni</p><p class="text-element">Níquel</p></div>
+            <div class="element transition">29<br><p class="first-element-text">Cu</p><p class="text-element">Cobre</p></div>
+            <div class="element transition">30<br><p class="first-element-text">Zn</p><p class="text-element">Zinco</p></div>
+            <div class="element basic">31<br><p class="first-element-text">Ga</p><p class="text-element">Gálio</p></div>
+            <div class="element metalloid">32<br><p class="first-element-text">Ge</p><p class="text-element">Germânio</p></div>
+            <div class="element metalloid">33<br><p class="first-element-text">As</p><p class="text-element">Arsênio</p></div>
+            <div class="element nonmetal">34<br><p class="first-element-text">Se</p><p class="text-element">Selênio</p></div>
+            <div class="element halogen">35<br><p class="first-element-text">Br</p><p class="text-element">Bromo</p></div>
+            <div class="element noble">36<br><p class="first-element-text">Kr</p><p class="text-element">Criptônio</p></div>
+
+
+            <!-- Linha 5 -->
+            <div class="element alkali">37<br><p class="first-element-text">Rb</p><p class="text-element">Rubídio</p></div>
+            <div class="element alkaline">38<br><p class="first-element-text">Sr</p><p class="text-element">Estrôncio</p></div>
+            <div class="element transition">39<br><p class="first-element-text">Y</p><p class="text-element">Ítrio</p></div>
+            <div class="element transition">40<br><p class="first-element-text">Zr</p><p class="text-element">Zircônio</p></div>
+            <div class="element transition">41<br><p class="first-element-text">Nb</p><p class="text-element">Nióbio</p></div>
+            <div class="element transition">42<br><p class="first-element-text">Mo</p><p class="text-element">Molibdênio</p></div>
+            <div class="element transition">43<br><p class="first-element-text">Tc</p><p class="text-element">Tecnécio</p></div>
+            <div class="element transition">44<br><p class="first-element-text">Ru</p><p class="text-element">Rutênio</p></div>
+            <div class="element transition">45<br><p class="first-element-text">Rh</p><p class="text-element">Ródio</p></div>
+            <div class="element transition">46<br><p class="first-element-text">Pd</p><p class="text-element">Paládio</p></div>
+            <div class="element transition">47<br><p class="first-element-text">Ag</p><p class="text-element">Prata</p></div>
+            <div class="element transition">48<br><p class="first-element-text">Cd</p><p class="text-element">Cádmio</p></div>
+            <div class="element basic">49<br><p class="first-element-text">In</p><p class="text-element">Índio</p></div>
+            <div class="element basic">50<br><p class="first-element-text">Sn</p><p class="text-element">Estanho</p></div>
+            <div class="element metalloid">51<br><p class="first-element-text">Sb</p><p class="text-element">Antimônio</p></div>
+            <div class="element metalloid">52<br><p class="first-element-text">Te</p><p class="text-element">Telúrio</p></div>
+            <div class="element halogen">53<br><p class="first-element-text">I</p><p class="text-element">Iodo</p></div>
+            <div class="element noble">54<br><p class="first-element-text">Xe</p><p class="text-element">Xenônio</p></div>
+
+
+            <!-- Linha 6 -->
+            <div class="element alkali">55<br><p class="first-element-text">Cs</p><p class="text-element">Césio</p></div>
+            <div class="element alkaline">56<br><p class="first-element-text">Ba</p><p class="text-element">Bário</p></div>
+            <div class="element lanthanide">57<br><p class="first-element-text">La</p><p class="text-element">Lantânio</p></div>
+            <div class="element transition">72<br><p class="first-element-text">Hf</p><p class="text-element">Háfnio</p></div>
+            <div class="element transition">73<br><p class="first-element-text">Ta</p><p class="text-element">Tântalo</p></div>
+            <div class="element transition">74<br><p class="first-element-text">W</p><p class="text-element">Tungstênio</p></div>
+            <div class="element transition">75<br><p class="first-element-text">Re</p><p class="text-element">Rênio</p></div>
+            <div class="element transition">76<br><p class="first-element-text">Os</p><p class="text-element">Ósmio</p></div>
+            <div class="element transition">77<br><p class="first-element-text">Ir</p><p class="text-element">Irídio</p></div>
+            <div class="element transition">78<br><p class="first-element-text">Pt</p><p class="text-element">Platina</p></div>
+            <div class="element transition">79<br><p class="first-element-text">Au</p><p class="text-element">Ouro</p></div>
+            <div class="element transition">80<br><p class="first-element-text">Hg</p><p class="text-element">Mercúrio</p></div>
+            <div class="element basic">81<br><p class="first-element-text">Tl</p><p class="text-element">Tálio</p></div>
+            <div class="element basic">82<br><p class="first-element-text">Pb</p><p class="text-element">Chumbo</p></div>
+            <div class="element basic">83<br><p class="first-element-text">Bi</p><p class="text-element">Bismuto</p></div>
+            <div class="element metalloid">84<br><p class="first-element-text">Po</p><p class="text-element">Polônio</p></div>
+            <div class="element halogen">85<br><p class="first-element-text">At</p><p class="text-element">Astato</p></div>
+            <div class="element noble">86<br><p class="first-element-text">Rn</p><p class="text-element">Radônio</p></div>
+
+
+            <!-- Linha 7 -->
+            <div class="element alkali">87<br><p class="first-element-text">Fr</p><p class="text-element">Frâncio</p></div>
+            <div class="element alkaline">88<br><p class="first-element-text">Ra</p><p class="text-element">Rádio</p></div>
+            <div class="element actinide">89<br><p class="first-element-text">Ac</p><p class="text-element">Actínio</p></div>
+            <div class="element transition">104<br><p class="first-element-text">Rf</p><p class="text-element">Rutherfórdio</p></div>
+            <div class="element transition">105<br><p class="first-element-text">Db</p><p class="text-element">Dúbnio</p></div>
+            <div class="element transition">106<br><p class="first-element-text">Sg</p><p class="text-element">Seabórgio</p></div>
+            <div class="element transition">107<br><p class="first-element-text">Bh</p><p class="text-element">Bóhrio</p></div>
+            <div class="element transition">108<br><p class="first-element-text">Hs</p><p class="text-element">Hássio</p></div>
+            <div class="element transition">109<br><p class="first-element-text">Mt</p><p class="text-element">Meitnério</p></div>
+            <div class="element transition">110<br><p class="first-element-text">Ds</p><p class="text-element">Darmstádio</p></div>
+            <div class="element transition">111<br><p class="first-element-text">Rg</p><p class="text-element">Roentgênio</p></div>
+            <div class="element transition">112<br><p class="first-element-text">Cn</p><p class="text-element">Copernício</p></div>
+            <div class="element basic">113<br><p class="first-element-text">Nh</p><p class="text-element">Nihônio</p></div>
+            <div class="element basic">114<br><p class="first-element-text">Fl</p><p class="text-element">Fleróvio</p></div>
+            <div class="element basic">115<br><p class="first-element-text">Mc</p><p class="text-element">Moscóvio</p></div>
+            <div class="element basic">116<br><p class="first-element-text">Lv</p><p class="text-element">Livermório</p></div>
+            <div class="element halogen">117<br><p class="first-element-text">Ts</p><p class="text-element">Tenesso</p></div>
+            <div class="element noble">118<br><p class="first-element-text">Og</p><p class="text-element">Oganessônio</p></div>
+
+
+            <!-- Linha 8 - Lantanídeos -->
+            <div class="empty" style="grid-column: span 3;"></div>
+            <div class="element lanthanide">58<br><p class="first-element-text">Ce</p><p class="text-element">Cério</p></div>
+            <div class="element lanthanide">59<br><p class="first-element-text">Pr</p><p class="text-element">Praseodímio</p></div>
+            <div class="element lanthanide">60<br><p class="first-element-text">Nd</p><p class="text-element">Neodímio</p></div>
+            <div class="element lanthanide">61<br><p class="first-element-text">Pm</p><p class="text-element">Promécio</p></div>
+            <div class="element lanthanide">62<br><p class="first-element-text">Sm</p><p class="text-element">Samário</p></div>
+            <div class="element lanthanide">63<br><p class="first-element-text">Eu</p><p class="text-element">Európio</p></div>
+            <div class="element lanthanide">64<br><p class="first-element-text">Gd</p><p class="text-element">Gadolínio</p></div>
+            <div class="element lanthanide">65<br><p class="first-element-text">Tb</p><p class="text-element">Térbio</p></div>
+            <div class="element lanthanide">66<br><p class="first-element-text">Dy</p><p class="text-element">Disprósio</p></div>
+            <div class="element lanthanide">67<br><p class="first-element-text">Ho</p><p class="text-element">Hólmio</p></div>
+            <div class="element lanthanide">68<br><p class="first-element-text">Er</p><p class="text-element">Érbio</p></div>
+            <div class="element lanthanide">69<br><p class="first-element-text">Tm</p><p class="text-element">Túlio</p></div>
+            <div class="element lanthanide">70<br><p class="first-element-text">Yb</p><p class="text-element">Itérbio</p></div>
+            <div class="element lanthanide">71<br><p class="first-element-text">Lu</p><p class="text-element">Lutécio</p></div>
+            <div class="empty" style="grid-column: span 1;"></div>
+
+
+            <!-- Linha 9 - Actinídeos -->
+            <div class="empty" style="grid-column: span 3;"></div>
+            <div class="element actinide">90<br><p class="first-element-text">Th</p><p class="text-element">Tório</p></div>
+            <div class="element actinide">91<br><p class="first-element-text">Pa</p><p class="text-element">Protactínio</p></div>
+            <div class="element actinide">92<br><p class="first-element-text">U</p><p class="text-element">Urânio</p></div>
+            <div class="element actinide">93<br><p class="first-element-text">Np</p><p class="text-element">Netúnio</p></div>
+            <div class="element actinide">94<br><p class="first-element-text">Pu</p><p class="text-element">Plutônio</p></div>
+            <div class="element actinide">95<br><p class="first-element-text">Am</p><p class="text-element">Amerício</p></div>
+            <div class="element actinide">96<br><p class="first-element-text">Cm</p><p class="text-element">Cúrio</p></div>
+            <div class="element actinide">97<br><p class="first-element-text">Bk</p><p class="text-element">Berquélio</p></div>
+            <div class="element actinide">98<br><p class="first-element-text">Cf</p><p class="text-element">Califórnio</p></div>
+            <div class="element actinide">99<br><p class="first-element-text">Es</p><p class="text-element">Einstênio</p></div>
+            <div class="element actinide">100<br><p class="first-element-text">Fm</p><p class="text-element">Férmio</p></div>
+            <div class="element actinide">101<br><p class="first-element-text">Md</p><p class="text-element">Mendelévio</p></div>
+            <div class="element actinide">102<br><p class="first-element-text">No</p><p class="text-element">Nobélio</p></div>
+            <div class="element actinide">103<br><p class="first-element-text">Lr</p><p class="text-element">Laurêncio</p></div>
+            <div class="empty" style="grid-column: span 1;"></div>
+        </div>
+    </div>
+</body>
+</html>
