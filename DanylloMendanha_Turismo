@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Turismo Brasil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-white"
+        style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center;">
+        <div class="container text-center" style="background-color: rgba(0, 0, 0, 0.5); padding: 2rem;">
+            <h1 class="display-4">Descubra o Brasil</h1>
+            <p class="lead">Explore paisagens, culturas e experiências inesquecíveis em todo o nosso país.</p>
+            <a class="btn btn-light btn-lg" href="#" role="button">Saiba mais</a>
+        </div>
+    </div>
+
+    <!-- Cards em linha -->
+    <div class="container mb-5">
+        <div class="card-deck">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80"
+                    class="card-img-top" alt="Praia">
+                <div class="card-body">
+                    <h5 class="card-title">Praias paradisíacas</h5>
+                    <p class="card-text">Conheça as praias mais bonitas do litoral brasileiro com águas cristalinas e
+                        natureza exuberante.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=80"
+                    class="card-img-top" alt="Montanhas">
+                <div class="card-body">
+                    <h5 class="card-title">Aventura nas montanhas</h5>
+                    <p class="card-text">Trilhas, escaladas e paisagens únicas nas regiões serranas do Brasil.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://plus.unsplash.com/premium_photo-1667512881397-14f90ed3edfe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="card-img-top" alt="Cultura">
+                <div class="card-body">
+                    <h5 class="card-title">Cultura e história</h5>
+                    <p class="card-text">Descubra as tradições, festas populares e o patrimônio histórico das cidades
+                        brasileiras.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Imagem central responsiva -->
+    <div class="container mb-5 text-center">
+        <img src="https://images.unsplash.com/photo-1660076327655-a43e7cadf86d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="img-fluid" alt="Imagem Central">
+    </div>
+
+    <!-- Grupo de cards com imagem à esquerda/direita -->
+    <div class="container mb-5">
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1591081658714-f576fb7ea3ed?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="img-fluid" alt="Floresta Amazônica">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <h4>Floresta Amazônica</h4>
+                    <p>Explore a maior floresta tropical do mundo, com sua biodiversidade única e cultura indígena.</p>
+                    <a href="#" class="btn btn-success">Explorar</a>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-6 order-md-2">
+                <img src="https://images.unsplash.com/photo-1528384171234-5a844dfc0fd7?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="img-fluid" alt="Lençóis Maranhenses">
+            </div>
+            <div class="col-md-6 d-flex align-items-center order-md-1">
+                <div>
+                    <h4>Lençóis Maranhenses</h4>
+                    <p>Um deserto tropical com lagoas cristalinas, um verdadeiro espetáculo natural do nordeste
+                        brasileiro.</p>
+                    <a href="#" class="btn btn-success">Explorar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-1">© 2025 Turismo Brasil. Todos os direitos reservados.</p>
+            <p class="mb-0">Feito por Danyllo Mendanha para valorizar as belezas do nosso país.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
