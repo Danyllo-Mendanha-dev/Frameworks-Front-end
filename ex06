@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IFMT</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    .dropdown-item.text-white:hover {
+    background-color: #000000; /* cor de fundo no hover */
+    color: #fff !important; /* cor do texto no hover */
+  }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto text-uppercase font-weight-bold">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown1" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ACESSO A INFORMAÇÃO
+                    </a>
+                    <ul class="dropdown-menu  bg-dark" aria-labelledby="navbarDropdown1">
+                        <li><a class="dropdown-item text-white" href="#">Institucional</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Ações e Programas</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Participação Social</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Auditorias</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Convenios e transferencias</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Receitas e despesas</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Licitacoes e contratos</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Servidores</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Informações classificadas</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Servico de informação ao cidadão (SIC)</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Perguntas frequentes</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Dados abertos</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown2" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        O IFMT
+                    </a>
+                    <ul class="dropdown-menu text-white bg-dark" aria-labelledby="navbarDropdown2">
+                        <li><a class="dropdown-item text-white" href="#">Apresentação e histórico</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Missão, visão e valores</a></li>
+                        <li><a class="dropdown-item text-white" href="#">reitoria</a></li>
+                        <li><a class="dropdown-item text-white" href="#">pró-reitorias</a></li>
+                        <li><a class="dropdown-item text-white" href="#">diretorias</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Comissões permanentes</a></li>
+                        <li><a class="dropdown-item text-white" href="#">servicoços</a></li>
+                        <li><a class="dropdown-item text-white" href="#">fundação de apoio</a></li>
+                        <li><a class="dropdown-item text-white" href="#">planejamento</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Ensino</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Pesquisa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Extensão</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Processo Seletivo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Campus</a>
+                </li>
+            </ul>
+
+            
+        </div>
+    </nav>
+</body>
+
+</html>
