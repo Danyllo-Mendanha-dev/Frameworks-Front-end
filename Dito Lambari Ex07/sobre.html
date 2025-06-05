@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dito Lambari - Sobre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="sobre">
+    <header class="topo">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Dito Lambari</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link corrente" href="sobre.html">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="receitas.html">Receitas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="display-4 mb-4">Benedito Lambari</h1>
+                <p class="lead">Mestre na culinária cuiabana</p>
+                <p>Nascido em Cuiabá em 1965, Benedito Lambari, conhecido como Dito, começou sua jornada na cozinha aos 12 anos, ajudando sua mãe no preparo das refeições para a família.</p>
+                <p>Com o passar dos anos, Dito desenvolveu técnicas únicas e dominou os segredos da culinária regional, tornando-se referência na preparação de pratos típicos como o Pintado na Telha, Arroz com Pequi e a Farofa de Banana.</p>
+                <p>Em 1998, inaugurou seu primeiro restaurante, que rapidamente se tornou ponto de encontro para quem busca autenticidade e sabor inigualável.</p>
+
+                <div class="mt-4">
+                    <h3>Premiações e Reconhecimentos</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Melhor Restaurante Regional - Prêmio Sabores do Brasil (2015)</li>
+                        <li class="list-group-item">Troféu Panela de Ouro - Associação dos Chefs de Mato Grosso (2018)</li>
+                        <li class="list-group-item">Destaque Gastronômico - Revista Comida & Cultura (2020)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <img src="lambari.jpg" alt="Dito Lambari" class="img-fluid rounded shadow">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>"Cozinhar não é apenas preparar alimentos, é manter viva a cultura e a tradição de um povo."</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-4">
+            <div class="row text-center text-md-left">
+                <div class="col-md-4 mb-3">
+                    <h5>Dito Lambari</h5>
+                    <p>Culinária cuiabana com tradição e sabor.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Horário de Funcionamento</h5>
+                    <p>Terça a Domingo<br>11h - 15h | 18h - 23h</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Redes Sociais</h5>
+                    <a href="#" class="text-white mr-2" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mr-2" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white mr-2" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="text-center small">
+                &copy; 2025 Dito Lambari. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#form-contato').on('submit', function (e) {
+                e.preventDefault(); // impede o envio padrão
+    
+                const nome = $('#nome').val().trim();
+                const email = $('#email').val().trim();
+                const telefone = $('#telefone').val().trim();
+                const mensagem = $('#mensagem').val().trim();
+    
+                if (!nome || !email || !mensagem) {
+                    alert('Por favor, preencha os campos obrigatórios.');
+                    return;
+                }
+    
+                // Simula o envio dos dados — aqui você poderia usar $.post()
+                console.log('Dados enviados:', { nome, email, telefone, mensagem });
+    
+                // Mostra uma mensagem ao usuário
+                alert('Mensagem enviada com sucesso!');
+    
+                // Limpa os campos do formulário
+                $('#form-contato')[0].reset();
+            });
+        });
+    </script>
+    
+</body>
+</html>
